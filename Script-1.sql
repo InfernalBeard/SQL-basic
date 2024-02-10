@@ -1,3 +1,10 @@
+/*
+Напишите скрипт создания таблицы со следующими параметрами:
+Название таблицы - PERSONS
+содержит в себе 5 столбцов - name, surname, age, phone_number, city_of_living
+первичным ключом будет сочетание name, surname, age
+*/
+
 create schema netology;
 
 create table netology.PERSONS
