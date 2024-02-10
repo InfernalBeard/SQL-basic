@@ -1,2 +1,2 @@
-select name, surname from netology.persons
-where city_of_living = 'MOSCOW';
+SELECT name, surname FROM netology.persons
+WHERE city_of_living = 'MOSCOW';
