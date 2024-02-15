@@ -9,25 +9,25 @@ create schema netology;
 
 create table netology.PERSONS
 (
-  name varchar not null,
-  surname varchar not null,
-  age int not null ,
-  phone_number varchar not null,
-  city_of_living varchar not null,
+  name varchar NOT NULL,
+  surname varchar NOT NULL,
+  age int NOT NULL,
+  phone_number varchar NOT NULL,
+  city_of_living varchar NOT NULL,
   PRIMARY KEY (name, surname, age)
 );
 
-insert into netology.PERSONS
-values ('TIMUR', 'DUSHANOV', 31, +77077777777, 'MOSCOW');
+INSERT INTO netology.PERSONS
+VALUES ('TIMUR', 'DUSHANOV', 31, +77077777777, 'MOSCOW');
 
-insert into netology.PERSONS
+INSERT INTO netology.PERSONS
 values ('ANAR', 'GAFAROV', 31, +71011111111, 'MOSCOW');
 
-insert into netology.PERSONS
-values ('IRINA', 'REZNIKOVA', 36, +71012222222, 'KRASNODAR');
+INSERT INTO netology.PERSONS
+VALUES ('IRINA', 'REZNIKOVA', 36, +71012222222, 'KRASNODAR');
 
-insert into netology.PERSONS
-values ('VLADISLAV', 'REZNIKOV', 42, +71013333333, 'KRASNODAR');
+INSERT INTO netology.PERSONS
+VALUES ('VLADISLAV', 'REZNIKOV', 42, +71013333333, 'KRASNODAR');
 
-insert into netology.PERSONS
-values ('IGOR', 'PERESYPKIN', 32, +71011531515, 'VOLGOGRAD');
+INSERT INTO netology.PERSONS
+VALUES ('IGOR', 'PERESYPKIN', 32, +71011531515, 'VOLGOGRAD');
